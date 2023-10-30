@@ -1,0 +1,142 @@
+/*-----------*/
+@media(max-width:1170px){
+    /*General CSS*/
+    .section-subtitle{
+        max-width: 60%;
+    }
+    /*-----navbar section----*/
+    .header .navbar{
+        background-size: cover;
+        padding: 2rem;
+    }
+    .header .navbar-nav{
+        margin-top: 2rem;
+    }
+    .header .navbar-nav .nav-link{
+        padding: 0.2rem 0.5rem;
+        margin-bottom: 1rem;
+    }
+/*--------Banner section start------*/
+    .banner_section .carousel-item{
+        height: 90vh;
+    }
+/*--------Banner section end------*/
+/*about section*/
+.about_section .section-subtitle{
+    max-width: 100%;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.product_section .section-subtitle{
+    max-width: 100%;
+    font-size: 2rem;
+    text-align: center;
+}
+/*----testimonial section------*/ 
+.testimonial_section .section-subtitle{
+        text-align: center;
+    }
+}
+
+
+@media(max-width:991px){
+    /*General CSS*/
+    .about .banner_section,
+    .product .banner_section,
+    .gallery .banner_section,
+    .contact .banner_section,
+    .distributors .banner_section{
+        padding-top: 12.5rem;
+        padding-bottom: 5rem;
+        min-height: auto;
+}
+    /*---01 navbar CSS*/
+    .header .navbar{
+        background-size: cover;
+        padding: 2rem;
+    }
+
+    .header .navbar-nav{
+        margin-top: 2rem;
+    }
+    .header .navbar-nav .nav-link{
+        padding: 0.2rem 0.5rem;
+        margin-bottom: 1rem;
+    }
+    .header .header_right span{
+        padding: 0.5rem 0.5rem;
+        
+    }
+    /*About section*/
+    .about_section .section-subtitle{
+        max-width: 100%;
+        font-size: 2rem;
+        text-align: center;
+    }
+    /*Product section*/
+    .product_section .section-subtitle{
+        max-width: 100%;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .testimonial_section .section-subtitle{
+        max-width: 100%;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+}
+@media(max-width:767px){
+    body,html{
+        font-size: 8px;
+    }
+    .section-subtitle{
+        max-width: 80%;
+    }
+/*-----02 banner section start-------*/
+.banner_section{
+    min-height: 70vh;
+    }
+
+.banner_section .carousel-item{
+    height: 70vh;
+}    
+/*-----02 banner section eds-------*/
+
+}
+
+@media(max-width:590px){
+    body,html{
+        font-size: 7px;
+    }
+    /*-----02 banner section start-------*/
+.banner_section{
+    min-height: 60vh;
+    }
+
+.banner_section .carousel-item{
+    height: 60vh;
+}    
+/*-----02 banner section eds-------*/
+.testimonial_section .section-subtitle{
+    max-width: 100%;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.testimonial_section .carousel-indicators{
+    bottom: -0.1rem;
+}
+
+/*about section*/
+.landing_about_section .about_content{
+    padding-left: 3rem;
+    padding-right: 10rem;
+}
+.landing_about_section .about_content h2{
+    font-size: 2.5rem;
+  
+}
+}
+
